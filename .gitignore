@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Phase1/.vs/Phase1/v16
+/Phase1/DSA/obj
+/Phase1/DSA/bin/Debug/netcoreapp3.1
+/Phase1/BasicsOfCSharp/obj
+/Phase1/BasicsOfCSharp/bin/Debug
+/Phase1/.vs/Phase1/DesignTimeBuild/.dtbcache.v2
