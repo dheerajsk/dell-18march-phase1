@@ -9,11 +9,6 @@ namespace DSA
         Node head;
         Node firstNode;
 
-        public LinkedList()
-        {
-
-        }
-
         public void Do()
         {
             var fn = firstNode = head = new Node(2);
