@@ -15,7 +15,8 @@ namespace DSA
             //LinkedList list = new LinkedList();
             //list.Do();
             //BinarySearch.Do();
-            BubbleSort.Do();
+            //BubbleSort.Do();
+            new MergeSort().Do();
         }
     }
 }
