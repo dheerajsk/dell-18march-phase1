@@ -8,7 +8,7 @@ namespace DSA.Algorithms
     {
         public void Do()
         {
-            int[] array = { 92, 23, 41, 7, 32, 61, 12, 3 };
+            int[] array = { 23, 11, 34, 24, 67, 56 };
             Divide(array, 0, array.Length - 1);
             foreach (int num in array)
             {
@@ -62,7 +62,7 @@ namespace DSA.Algorithms
             i = 0; j = 0;
             int k = left;
 
-            while (i < leftArrayLength && j < leftArrayLength)
+            while (i < leftArrayLength && j < rightArrayLength)
             {
                 if (leftArray[i] < rightArray[j])
                 {
