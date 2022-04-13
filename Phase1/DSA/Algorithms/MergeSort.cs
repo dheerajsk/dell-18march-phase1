@@ -16,7 +16,7 @@ namespace DSA.Algorithms
             }
         }
 
-        void Divide(int[] array, int left, int right)
+        void Divide(int[] array, int left, int right) // logn
         {
             if (left < right)
             {
@@ -35,7 +35,7 @@ namespace DSA.Algorithms
 
         }
 
-        void MergeAndSort(int[] array, int left, int right, int mid)
+        void MergeAndSort(int[] array, int left, int right, int mid) // n
         {
             // 1. Create Left and Right array based on pointers.
 
@@ -48,12 +48,12 @@ namespace DSA.Algorithms
             int[] rightArray = new int[rightArrayLength];
 
             int i, j;
-            for (i = 0; i < leftArrayLength; i++)
+            for (i = 0; i < leftArrayLength; i++) // n
             {
                 leftArray[i] = array[left + i];
             }
 
-            for (j = 0; j < rightArrayLength; j++)
+            for (j = 0; j < rightArrayLength; j++) // n
             {
                 rightArray[j] = array[mid + 1 + j];
             }
@@ -62,7 +62,7 @@ namespace DSA.Algorithms
             i = 0; j = 0;
             int k = left;
 
-            while (i < leftArrayLength && j < rightArrayLength)
+            while (i < leftArrayLength && j < rightArrayLength) // n
             {
                 if (leftArray[i] < rightArray[j])
                 {
