@@ -6,6 +6,7 @@ namespace DSA.Algorithms
 {
     class MergeSort
     {
+
         public void Do()
         {
             int[] array = { 23, 11, 34, 24, 67, 56 };

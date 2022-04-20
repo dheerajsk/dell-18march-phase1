@@ -8,3 +8,6 @@
 /Phase1/BasicsOfCSharp/obj
 /Phase1/BasicsOfCSharp/bin/Debug
 /Phase1/.vs/Phase1/DesignTimeBuild/.dtbcache.v2
+/Phase1/BLL/obj
+/Phase1/OOPConcepts/obj
+/Phase1/OOPConcepts/bin/Debug/netcoreapp3.1
