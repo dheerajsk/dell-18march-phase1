@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OOPConcepts
+namespace BLL
 {
     class FinanceTeam : IFinanceTeam
     {
-        FinanceTeam()
+        public FinanceTeam()
         {
 
         }

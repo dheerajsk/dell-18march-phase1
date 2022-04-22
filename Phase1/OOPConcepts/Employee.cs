@@ -9,15 +9,15 @@ namespace OOPConcepts
     {
         //public ITTeam ITTeam { get; set; }
         public IFinanceTeam FinanceTeam { get; set; }
-        public FinanceTeam obj;
+        
 
-        public Employee(int id, string name, string dept)
+        public Employee(int id, string name, string dept, IFinanceTeam team)
         {
             this.ID = id;
             this.Name = name;
             this.Department = dept;
             //ITTeam = new ITTeam(); // incorrect way.
-            //FinanceTeam = new FinanceTeam();
+            FinanceTeam = team;
         }
 
         public int ID { get; set; }
